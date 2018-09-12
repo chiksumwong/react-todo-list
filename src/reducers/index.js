@@ -1,9 +1,11 @@
 import { combineReducers } from 'redux'
 
 //Reducers
-/* 要指定 state tree 如何藉由 action 來轉變，你必須撰寫 pure reducer。 */
-/* Reducer 只是 pure function，它取得先前的 state 和一個 action，並回傳下一個 state。*/
-/* 請記得要"回傳"(return)一個新的 state 物件，而不要去改變先前的 state。*/
+// 要指定 state tree 如何藉由 action 來轉變，你必須撰寫 pure reducer。 
+ //Reducer 只是 pure function，它取得先前的 state 和一個 action，並回傳下一個 state。
+ //請記得要"回傳"(return)一個新的 state 物件，而不要去改變先前的 state。
+
+//Action 描述實際發生一些事，不過並不指定應用程式的 state 要如何去應對改變。這是 reducer 的工作。
 import todos from './todos'
 import visibilityFilter from './visibilityFilter'
 
