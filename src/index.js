@@ -4,6 +4,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
 import App from './components/App'
+
+/* Work in production */
 // import registerServiceWorker from './registerServiceWorker';
 
 
@@ -23,5 +25,5 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
-
+/* Work in production */
 // registerServiceWorker();

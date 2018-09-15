@@ -5,7 +5,7 @@ import Footer from './Footer'
 
 //Containers
 import AddTodo from '../containers/AddTodo'
-import VisibleTodoList from '../containers/VisibleTodoList'
+import VisibleTodoList from '../containers/VisibleTodoList'//Components -> TodoList
 
 //App structure
 const App = () => (
